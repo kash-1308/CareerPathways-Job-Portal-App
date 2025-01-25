@@ -7,3 +7,21 @@ The Career Pathways Job Portal App is a dynamic web application developed using 
 * Recruiter Access: Recruiters can post job openings and manage applications efficiently.
 * Networking and News: A group circle for networking and a news section for the latest technology trends and updates.
 * User Profile and Settings: Manage personal profiles, search preferences, and app settings easily.
+
+# Getting Started with React App
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/kash-1308/Job-Portal-App.git
+cd Job-Portal-App
+```
+
+
+
