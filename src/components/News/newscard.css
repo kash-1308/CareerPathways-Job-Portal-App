@@ -1,0 +1,176 @@
+
+.discover-button{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: #9f9ffa;
+    height: 18px;
+    border:none;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 10px 25px;
+    border-radius: 2px;
+
+}
+.discover-button:hover{
+  border-radius: 5px;
+  background-color: #2a2acc;
+}
+.newscard {
+    width: 360px;
+    height: 360px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9; 
+    margin: 15px;
+    border: 1px solid  rgb(197, 197, 197);
+  }
+  .newscard:hover{
+    transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  }
+  .cardimg {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 0px;}
+  .title {
+    color: black;
+    font-size: 1.3rem;
+    margin-top: 5px;
+    margin: 10px;
+    margin-left: 5%;
+    text-align: start;
+    font-weight: bold; 
+  }
+  .caption {
+    color: black;
+    font-size: 17px;
+    margin: 5px;
+    margin-left: 5%;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .trend-card{
+    height: fit-content;
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .trend-card:hover{
+    transform: scaleY(1.1);
+  }
+  .add-info{
+    margin: 10px;
+    text-align: left;
+  }
+  .icont{
+    height: 55px;
+    margin: 5px;
+    display: block;
+    margin: 5px auto;
+    object-fit: cover;
+  }
+  .trendhead{
+    margin: 2px;
+    font-family:sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  @media screen and (min-width: 830px) and (max-width: 950px) {
+    .trendhead{
+      font-weight: 500;
+    }
+    .newscard{
+      width: 330px;
+      height: 330px;
+      margin: 10px;
+    }
+    .cardimg{
+      height: 150px;
+    }
+    .trend-card{
+      margin-top: 5px;
+      height: fit-content;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (min-width: 680px) and (max-width: 830px){
+    .newscard{
+      width: 300px;
+      height: 310px;
+      margin: 10px;
+    }
+    .cardimg{
+      height: 135px;
+    }
+    .trendhead{
+      font-weight: bold;
+    }
+    .trend-card{
+      height: fit-content;
+      width: 220px;
+    }
+    
+    .title{
+      font-size: 1.2em;
+      text-align: center;
+    }
+    .caption{
+      font-size: 14px;
+    }
+    .discover-button{
+      padding: 8px 22px;
+      height: 15px;
+      padding-bottom: 9px;
+    }
+
+  }
+  @media screen and (max-width:420px ){
+    .trend-card{
+      height: 100px;
+      width:200px;
+    }
+    .newscard{
+      width: 300px;
+      height: 310px;
+      margin: 25px;
+    }
+    .cardimg{
+      height: 135px;
+    }
+    .trendhead{
+      font-weight: bold;
+    }
+    .trend-card{
+      height: fit-content;
+      width: 220px;
+      margin: 20px;
+    }
+    .title{
+      font-size: 1.2em;
+      text-align: center;
+    }
+    .caption{
+      font-size: 14px;
+    }
+    .discover-button{
+      padding: 8px 22px;
+      height: 15px;
+      padding-bottom: 9px;
+    }
+  }

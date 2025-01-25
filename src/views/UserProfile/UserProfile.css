@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.img1{
+  height: 201px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 10px; 
+}
+.container{
+    height:40rem;
+    width:90rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    margin-left:70px; 
+    margin-bottom: 30px;
+}
+.job-container{
+  height: 380px;
+  overflow-y: scroll;
+ 
+}
+.verticalliness{
+ width: 1px;
+ height: 640px;
+ background-color: black;
+ left: 23%;
+ top: 7%;
+ position: absolute;
+  }
+  .head4{
+    margin-left: 310px;
+    bottom:450px ;
+    font-size: 20px;
+    color: black;
+  }
+.username{
+ margin-left:310px;
+ font-size: 40px;
+ color: black;
+ font-family: "Poppins", sans-serif;
+ top: 80px;
+ position: absolute;
+}
+.useremail{
+  margin-left:310px;
+  top: 140px;
+  font-size: 20px;
+  color:black;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+}
+.jobrole{
+  margin-left: 310px;
+  color: black;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  top: 180px;
+  font-size: 20px;
+  position: absolute;
+}
+.img0{
+   height: 30px;
+   margin-left: 30px;
+   margin-top: 20px;
+  
+}
+.img2{
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+  
+}
+.img3{
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.img5{
+  height: 35px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.img1{
+       border: 3px solid purple;
+       border-radius: 100px ;
+}
+.socialmedia{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 260px;
+  height: 70px;
+  margin-left: 10px;
+  border-radius: 20px;
+  background-image: linear-gradient( 100.5deg,  rgba(148,146,236,1) 17.7%, rgba(245,194,194,1) 76.1% );
+}
+.bye{
+  height: 50px;
+  animation: waving-hand 2.5s infinite;
+  transform-origin: 70% 70%;
+}
+@keyframes waving-hand{
+     0%{
+      transform:rotate(0deg);
+     }
+     10%{
+      transform:rotate(14deg);
+     }
+     20%{
+      transform:rotate(-8deg);
+     }
+     30%{
+      transform:rotate(14deg);
+     }
+     40%{
+      transform:rotate(-4.0deg);
+     }
+     50%{
+      transform:rotate(10deg);
+     }
+     60%{
+      transform:rotate(0deg);
+     }
+     100%{
+      transform:rotate(0deg);
+     }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+  .img1 {
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+
+  .container {
+    height: 35rem;
+    width: 390px;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    overflow-y: scroll;
+  }
+
+  .job-container {
+    height: 300px;
+    overflow-y: scroll;
+  }
+
+  .verticalliness {
+    visibility: hidden; 
+  }
+
+  .head4 {
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 60px;
+  }
+
+  .username {
+    margin-left: 130px;
+    font-size: 20px;
+  }
+
+  .useremail {
+    margin-left: 130px;
+    top: 120px;
+    font-size: 16px;
+    
+  }
+
+  .jobrole {
+    margin-left: 130px;
+    top: 150px;
+    font-size: 16px;
+
+  }
+
+  .img0, .img2, .img3, .img5 {
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+
+  .socialmedia {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    width: 150px;
+    height: 40px;
+  }
+  .bye{
+    height: 30px;
+    animation: waving-hand 2.5s infinite;
+    transform-origin: 70% 70%;
+  }
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+  .img1 {
+    height: 140px;
+    width: 140px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  .container {
+    height: 39rem;
+    width: 700px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 10px;
+  }
+
+  .job-container {
+    height: 320px;
+    overflow-y: scroll;
+    margin-top: 2px;
+  }
+
+  .verticalliness {
+    height: 450px;
+    left: 18%;
+    top: 5%;
+    visibility: hidden;
+  }
+
+  .head4 {
+    margin-top: 100px;
+    margin-left: 10px; 
+  }
+
+  .username {
+    margin-left: 190px;
+    font-size: 28px;
+    top:60px
+  }
+
+  .useremail {
+    margin-left: 190px;
+    top: 110px;
+    font-size: 16px;
+  }
+
+  .jobrole {
+    margin-left: 190px;
+    top: 150px;
+    font-size: 16px;
+  }
+
+  .img0, .img2, .img3, .img5 {
+    height: 22px;
+    margin-left: 15px;
+    margin-top: 12px;
+  }
+
+  .socialmedia {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    width: 160px;
+    height: 50px;
+  }
+  .bye{
+    height: 40px;
+    animation: waving-hand 2.5s infinite;
+    transform-origin: 70% 70%;
+  }
+}

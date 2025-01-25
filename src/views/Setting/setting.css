@@ -1,0 +1,221 @@
+.setting-container{
+    min-height: 100vh;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    position: relative;
+}
+
+.set-txt{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.setting-user-profile{
+    margin-top: 30px;
+    height:60px;
+    width: 90vw;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    gap:20px;
+    overflow: hidden;
+}
+
+.setting-profile-pic{
+    display: block;
+    height:100%;
+    width: 60px;
+    background-color: #acabab;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.setting-profile-pic img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+    scale: 1.5;
+}
+
+.user-info{
+    display: block;
+    height: 100%;
+    width: 50vw;
+    text-align: left;
+    font-size: 1.2em;
+    white-space: nowrap;
+    font-weight: 300;
+}
+
+.setting-user-name{
+    font-size: 0.9em;
+    color: gray;
+}
+
+
+.setting-box{
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+  padding-bottom:10px ;
+}
+
+.setting-heading{
+    font-size:1.5em;
+    font-weight: 600;
+    color: #787777;
+}
+
+.them-btn-container{
+    height: 7vh;
+    width: 90vw;
+    display: flex;
+    margin-top: 3vh;
+    margin-left: 20px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.seting-name{
+    font-size: 1.3em;
+}
+
+.user-set-box{
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+.user-set-box div{
+    cursor: pointer;
+}
+
+.serhces-res-box{
+    height: 25px;
+    width: 100px;
+    outline:none;
+    border: none;
+    border-bottom: 1px solid #6969ffc7;
+    border-radius: 4px;
+}
+
+.serhces-res-box[type=number]::-webkit-inner-spin-button, 
+.serhces-res-box[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+.log-out{
+    font-size: 1.4em;
+    color: #ff4949;
+    cursor: pointer;
+}
+
+.overlay{
+    height: 100%;
+    width: 120%;
+    position: absolute;
+    top: 0;
+    left: -10%;
+    background-color: #e0e0e01d;
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-popup{
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    right: 15%;
+    cursor: pointer;
+    color: #65d2fa;
+}
+
+
+.savebtn{
+    display:inline-block;
+    width: 50px;
+    height: 25px;
+    background-color: #6969ffc7;
+    margin-left: 3vw;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+          &:hover{
+            background-color: #3757ca;
+          }
+   color: whitesmoke;
+}
+
+.Show{
+    height: auto;
+    /*height: 60vh;
+    width: 50vw;
+    position:fixed;
+    background:linear-gradient(#65d2fa77,#d345f075);
+    filter:blur(100px) ;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+    pointer-events: all;
+    z-index: -1;*/
+}
+
+.socialmedias{
+    display: flex;
+    align-items:start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.socialmedias span{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.socialmedias span i{
+    font-size: 29px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.save-btn-div{
+    height: 15vh;
+    width: 100vw;
+    position: relative;
+}
+.save-btn{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+
+
+@media screen and (max-width:500px) {
+  .setting-container{
+    margin-left: 0px;
+    width: 100vw;
+    overflow-x: hidden;
+    margin-bottom: 15vh;
+ }
+ .them-btn-container{
+    width: 100vw;
+    margin-left: 10px;
+    gap: 20px;
+    white-space: nowrap;
+}
+.socialmedia{
+    margin-left: 0;
+}
+
+}

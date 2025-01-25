@@ -1,0 +1,200 @@
+.maindivn{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 30px;
+   
+}
+.headingn{
+    text-align: center;
+    font-size: 70px;
+    background:linear-gradient(to left,#002aff,#0ce3ff);
+    color: transparent;
+    background-clip: text;
+}
+.headcap{
+    text-align: center;
+    text-decoration: underline;
+    margin: 5px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.containern{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.trends{
+   
+        height: fit-content;
+        border: 1px solid gray;
+        margin: 10px;
+        border-radius: 10px;
+        position: relative;
+        padding: 10px;
+        margin-left: 4%;
+        
+}
+.headtrends{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    font-size: 40px;
+    text-align: center;
+    background:linear-gradient(to left,#002aff,#0ce3ff);
+    color: transparent;
+    background-clip: text;
+}
+.trendcardcontainer{
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+}
+.heading-skills{
+    text-align: center;
+    background:linear-gradient(to left,#002aff,#0ce3ff);
+    color: transparent;
+    background-clip: text;
+}
+
+.tech-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  
+  .tech-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 20px 45px;
+    padding-bottom: 10px;
+    margin: 20px;
+    height: fit-content;
+    width: 170px;
+    background:transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .tech-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .tech-name {
+    font-size: 17px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .techemp{
+    font-size: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    text-align: start;
+    padding: 3px;
+  }
+  .youtubev{
+    margin: 30px;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+  }
+  .nvideocontainer{
+    margin: 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and (max-width: 1216px) {
+    .tech-grid{
+        justify-content: space-between;
+    }
+    .trendcardcontainer{
+        padding-bottom: 10px;
+    }
+    .youtubev{
+        margin: 20px;
+        border-radius: 10px;
+        width: 380px;
+        height: 300px;
+      }
+    
+}
+@media screen and (min-width: 675px) and (max-width: 900px){
+    .headingn{
+        font-size: 65px;
+    }
+    .trendcardcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 3px;
+    }
+    .tech-grid{
+        justify-content: center;
+        margin: 20px;
+    }
+    .youtubev{
+        height: 400px ;
+        width: 650px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 675px){
+    .headingn{
+        font-size: 65px;
+    }
+    .trendcardcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 3px;
+    }
+    .tech-grid{
+        justify-content: center;
+        margin: 20px;
+    }
+    .youtubev{
+        height: 300px ;
+        width: 450px;
+    }
+}
+@media screen and (max-width:479px ){
+    .headingn{
+        font-size: 40px;
+    }
+    .trends{
+        margin-left: 8%;
+    }
+    .trendcardcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 3px;
+    }
+    .tech-grid {
+        display: flex;
+        flex-direction: row;
+        margin:20px;
+        justify-content: center;
+      }
+      .youtubev{
+        height: 380px ;
+        width: 320px;
+        margin: 10px auto;
+    }
+}

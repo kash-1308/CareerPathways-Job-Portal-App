@@ -1,0 +1,34 @@
+
+.chats-container{
+    min-height: 100vh;
+    width: 100vw;
+    margin-left: 55px;
+}
+
+
+.all-chats{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+@media screen and (max-width:500px) {
+    .chats-container{
+        margin-left: 0px;
+        overflow: hidden;
+        margin-bottom: 10vh;
+    }
+    .all-chats{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .user-serch-img{
+        width: 100%;
+    }
+}

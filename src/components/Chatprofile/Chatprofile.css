@@ -1,0 +1,54 @@
+
+.chat-container{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items:center;
+    gap: 2vw;
+    cursor: pointer;
+    padding: 2vh;
+    background-color: #71cff822;
+    border-radius: 2px;
+}
+
+.chat-name{
+    font-size: 1.2em;
+    font-weight: 700;
+    white-space: nowrap ;
+}
+
+.user-pic{
+    scale: 0.9;
+}
+
+.user-chat-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-work-info{
+    font-size: 1em;
+    white-space: nowrap;
+    color: #888888;
+    margin-top: 3px;
+}
+
+@media screen and (max-width:500px) {
+    .chat-name{
+        font-size: 1em;
+        font-weight: 700;
+        white-space: nowrap ;
+    }
+    .user-pic{
+        scale: 0.7;
+    }
+
+    .user-work-info{
+        font-size: 0.8em;
+        white-space: wrap;
+    }
+    .chat-container{
+        padding: 1vh;
+    }
+}

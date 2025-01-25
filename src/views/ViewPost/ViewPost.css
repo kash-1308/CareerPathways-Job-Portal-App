@@ -1,0 +1,10 @@
+.view-post-heading{
+    text-align: center;
+    left: 50%;
+    padding-top: 30px;
+    font-size: 25px;
+    background:linear-gradient(to left,#002aff,#0ce3ff);
+    color:  transparent;
+    background-clip: text;
+    
+}

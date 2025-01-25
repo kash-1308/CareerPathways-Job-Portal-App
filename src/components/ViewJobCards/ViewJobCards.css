@@ -1,0 +1,94 @@
+.job-post-cards{
+    border: none;
+    box-shadow: 0 0 10px 0;
+    margin: 20px 150px;
+    position: relative;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.comp-name-cont{
+    display: flex;
+    margin: 15px;
+}
+
+.comp-name{
+padding-top: 6px;
+padding-left: 5px;
+}
+
+.job-post-title{
+    border: solid;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.employmentType{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    background-color:#3253f4;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.job-location{
+    margin: 0px 0px 5px -5px ;
+    font-size: 15px;
+}
+
+.post-content{
+    margin: 20px;
+}
+
+.title-content{
+    margin-bottom: 10px;
+}
+
+.read-more-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.salary-cont{
+    margin-bottom: 10px;
+}
+
+.rmv-btn{
+    margin: 0 30px 10px 20px;
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #6969ffc7;
+  color: aliceblue;
+  border: none;
+}
+.rmv-btn:hover{
+    background-color: #002aff;
+}
+
+@media screen and (max-width:500px) {
+    .job-post-cards{
+        border: none;
+        box-shadow: 0 0 10px 0;
+        width: 80%;
+        margin: 30px auto;
+        position: relative;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .employmentType{
+        font-size: 15px;
+    }
+}

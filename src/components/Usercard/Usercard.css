@@ -1,0 +1,73 @@
+
+.user-info-card{
+    height: 220px;
+    width: 400px;
+    margin:4vh 1.2vw;
+    overflow: hidden;
+    border-radius: 4px;
+    background: white;
+    color: black;
+     box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.user-card-top{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    padding:1vh 1vw;
+    margin-top: 2vh;
+}
+
+.usercard-image{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.usercard-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.card-user-info{
+    width: calc(100% - 80px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left:9px;
+}
+
+.user-card-name{
+    font-size: 1.4em;
+}
+
+.user-card-username{
+    font-size: 0.6em;
+    color: gray;
+    line-height: 1;
+}
+
+.job-info{
+  font-size: 1.1em; 
+  margin-top: 0.5vh; 
+  font-weight: 400;
+}
+
+.card-basic-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2em;
+    color: gray;
+}
+
+.card-btn-container{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    margin-top: 3vh;
+    margin-left: 2vw;
+}

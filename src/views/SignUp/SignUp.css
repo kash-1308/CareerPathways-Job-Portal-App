@@ -1,0 +1,289 @@
+/* Universal box-sizing for left and right sides */
+.left-side, .right-side { 
+    box-sizing: border-box;
+}
+
+/* Styles for welcome text and other elements */
+.welcome-text {
+    font-size: 15px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.field-text {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.input-with-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.last-line {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.text-feild1 {
+    font-size: 40px;
+}
+
+
+.form-group1 {
+    margin-bottom: 12px;
+}
+
+.select {
+    padding: 5px;
+    background-color: #ccccff;
+    color: #000066;
+    border: 2px solid #000066;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+select:focus {
+    outline: none;
+    border-color: #000066;
+}
+
+
+
+.linear-text {
+    display: inline;
+    background-color: #6969ffc7;
+    color: transparent;
+    background-clip: text;
+}
+
+.group-form {
+    margin-bottom: 5px;
+}
+
+.group-form label {
+    display: block;
+    margin-bottom: 0.5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.group-form input,
+.group-form select {
+    width: 70%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.group-form select{
+    border-bottom: 1px solid #6969ffc7;
+    margin-bottom: 5px;
+}
+.group-form input{
+    border-bottom: 1px solid #6969ffc7;
+    margin-bottom: 5px;
+}
+
+
+.Existing-user {
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(23, 23, 23);
+}
+
+.Reflection {
+    height: 60vh;
+    width: 80vw;
+    height: 60vh;
+    width: 80vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    }
+
+    .signup-img {
+        height: 400px;
+        width: 400px;
+    }
+
+
+
+   
+/* Default Styles (For large screens, 1000px and above) */
+.signup-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    border: 3px solid #000066;
+    border-radius: 30px;
+    width: 55%;
+    height: 860px;
+    margin: 70px auto;
+    
+    color: #000066;
+}
+
+
+.left-side {
+    flex: 1;
+    padding: 20px;
+    max-width: 70%;
+}
+
+.right-side {
+    flex: 1;
+    height: 860px;
+    background-color: #6969ffc7;
+    border-radius: 20px;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 20px;
+    
+}
+
+.Information {
+    font-size: 1vw;
+    margin: 1rem 1.5rem;
+    border-radius: 3px;
+    width: calc(100% - 60px);
+    height: 2.5rem;
+    border: none;
+    border-bottom: 1px solid #6969ffc7;
+    padding: 0 2rem;
+}
+
+.signup-btn {
+    font-size: 1.3vw;
+    width: 25%;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: #6969ffc7;
+    color: white;
+    border: 0.5px solid #6969ffc7;
+    font-weight: bold;
+    cursor: pointer;
+     
+}
+
+.signup-btn:hover{
+    background-color: #2a2acc;
+}
+
+
+.signup-img {
+    height: 400px;
+    width: 100%;
+}
+
+
+
+/* Media Query for Extra Large Devices (1200px and above) */
+@media (max-width: 1200px) {
+    .signup-main-container {
+        width: 80%;
+        height: auto;
+    }
+    
+       .Information {
+        font-size: 1.2rem;
+    }
+
+    .signup-btn {
+        font-size: 1.6rem;
+        width: 28%;
+       
+    }
+
+    
+}
+
+/* Media Query for Medium Devices (Tablets, 600px - 999px) */
+@media (max-width: 999px) {
+    .signup-main-container {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        padding: 5px;
+        
+    }
+
+    .left-side, .right-side {
+        max-width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+
+    .Information {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .signup-btn {
+        font-size: 1.4rem;
+        width: 18%;
+        padding: 4px;
+    }
+
+    .signup-img {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+/* Media Query for Small Devices (Mobile, up to 599px) */
+@media (max-width: 599px) {
+    .signup-main-container {
+        width: 80%;
+        height: auto;
+        flex-direction: column;
+        padding: 25px;
+        border: 2px solid #000066;
+    }
+
+    .left-side {
+        max-width: 100%;
+    }
+
+    .right-side {
+        display: none;
+    }
+
+    .Information {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .signup-btn {
+        font-size: 1.3rem;
+        width: 34%;
+        padding: 5px;
+    }
+
+    .group-form select, .group-form input {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .linear-text {
+        font-size: 22px;
+    }
+}
+
+        
+    
