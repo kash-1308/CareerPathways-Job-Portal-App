@@ -19,8 +19,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/kash-1308/Job-Portal-App.git
-cd Job-Portal-App
+git clone https://github.com/kash-1308/CareerPathways-Job-Portal-App.git
+cd CareerPathways-Job-Portal-App
 ```
 
 
